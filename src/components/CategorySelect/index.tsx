@@ -3,9 +3,10 @@ import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { ScrollView } from 'react-native';
 
 import DiscordImg from '../../assets/discord.png';
-import { styles } from './styles';
 import { categories } from '../../utils/categories';
 import { Category } from '../Category';
+
+import { styles } from './styles';
 
 type Props = {
     categorySelected: string;
